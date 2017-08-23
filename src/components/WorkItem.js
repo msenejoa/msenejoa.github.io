@@ -1,5 +1,35 @@
 import React from 'react';
 import moment from 'moment';
+import s from '../stylesheet.css';
+
+const styles = {
+  hStyle: {
+    fontSize: 18,
+    fontFamily: 'Open Sans',
+    fontWeight: 'bold',
+    color: '#636363'
+  },
+  date: {
+    fontSize: 16,
+    fontFamily: 'Open Sans',
+    fontStyle: 'italic',
+    color: '#A5A5A5'
+  },
+  body: {
+    fontSize: 14,
+    fontFamily: 'Open Sans',
+    color: '#636363',
+    fontWeight: '300',
+  link: {
+    fontSize: 14,
+    fontFamily: 'Open Sans'
+  }
+  }
+}
+
+
+
+
 
 const WorkItem = props => {
     const getWorkDates = () => {
@@ -20,12 +50,19 @@ const WorkItem = props => {
 
     return (
         <div className="workItem">
-          <h3>{props.workItemData.position}, <span>{props.workItemData.company}</span></h3>
-          <p className="workDates">{getWorkDates()}</p>
-          <p>{props.workItemData.summary}</p>
+          <a href={props.workItemData.website}><h3 style={styles.hStyle}>{props.workItemData.position}, <span>{props.workItemData.company}</span></h3></a>
+          <p className="workDates" style = {styles.date}>{getWorkDates()}</p>
+          <p style={styles.body}>{props.workItemData.summary}</p>
           <ul>{getHighlights}</ul>
         </div>
     )
 };
 
 export default WorkItem;
+
+
+
+
+
+
+

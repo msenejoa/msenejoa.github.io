@@ -1,6 +1,16 @@
 import React from 'react';
 import WorkItem from './WorkItem';
 
+const styles = {
+  hStyle: {
+    fontSize: 28,
+    fontFamily: 'Open Sans',
+    color: '#636363',
+    paddingTop: 35
+  }
+};
+
+
 const Work = props => {
     const getWorkExperience = () => {
         const workItems = [];
@@ -12,7 +22,7 @@ const Work = props => {
 
     return (
       <section className="work">
-        <h2 className="text-uppercase"><i className="fa fa-lg fa-building"></i> Work experience</h2>
+        <h2 style={styles.hStyle} className="text-uppercase">Work experience</h2>
         {getWorkExperience()}
       </section>
     );

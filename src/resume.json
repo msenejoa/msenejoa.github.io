@@ -49,7 +49,7 @@
     {
       "company": "Shapeways",
       "position": "3D Printing Engineer",
-      "website": "shapeways.com",
+      "website": "http://www.shapeways.com",
       "startDate": "2015-10-01",
       "endDate": "2017-03-01",
       "summary": "An industry leader in a 3D printing marketplace. I worked closely with supply chain to plan 3D builds accordingly to reduce lead time and minimize late PO’s. I also analyzed customer meshes (obj, stl) to ensure printability. Used SQL, Python/Flask, JavaScript to visualize the order pipeline and lead times. I built web apps for the management team to visualize trends in various categories using custom written SQL queries.  Designed a web application using Flask/SQLite/JavaScript that tracked and displayed the quality of machined parts in order to ensure consistency among builds. Assisted in the automation of planning builds using Python, SQL and Selenium to work with our existing back end. ",
@@ -85,7 +85,7 @@
     {
       "company": "Senior Design",
       "position": "Electrical Engineer",
-      "website": "",
+      "website": "http://www.eecs.ucf.edu/seniordesign/fa2010sp2011/g18/video.html",
       "startDate": "2010-08-01",
       "endDate": "2011-05-01",
       "summary": "Designed, documented and constructed an analog and digital musical synthesizer. Tasks included simulating the circuits, designing and manufacturing PCB, programming and uploading firmware to microcontrollers, soldering electronics and testing the final product. Other task included a budget const analysis and a critical path analysis for a time and efficient execution of milestones and goals.",
