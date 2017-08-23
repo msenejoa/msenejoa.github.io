@@ -8,6 +8,9 @@ const styles = {
     //paddingTop: 35,
     //paddingBottom: 12
   },
+  picture: {
+    paddingTop: 20
+  },
   body: {
     fontSize: 18,
     fontFamily: 'Open Sans',
@@ -31,7 +34,7 @@ const styles = {
 const Profile = props => {
     const profileObj = props.profileData;
     return  <div>
-                  <div className="profileImg"><img role="presentation" className="img-circle center-block" src={profileObj.picture} width="200" /></div>
+                  <div style={styles.picture} className="profileImg"><img role="presentation" className="img-circle center-block" src={profileObj.picture} width="200" /></div>
                   <h1 style={styles.hStyle} className="text-center">{profileObj.name}</h1>
                   <h2 style={styles.body} className="text-center">{profileObj.label}</h2>
                   <div className="divider"></div>
