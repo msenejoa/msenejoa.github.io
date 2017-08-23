@@ -83,23 +83,23 @@
       "highlights": []
     },
     {
-      "company": "Self Employed",
-      "position": "Freelance Web Developer",
+      "company": "Senior Design",
+      "position": "Electrical Engineer",
       "website": "",
-      "startDate": "2010-03-01",
-      "endDate": "2014-05-01",
-      "summary": "As a freelance web developer I mainly concentrated on building bespoke CMS solutions for agencies using Wordpress. As a full stack developer my responsibilities included setting up hosting, domains, databases and delivering an easy to use custom Wordpress theme with Advanced Custom Fields and toward the latter end of my freelance venture, responsive layouts.",
+      "startDate": "2010-08-01",
+      "endDate": "2011-05-01",
+      "summary": "Designed, documented and constructed an analog and digital musical synthesizer. Tasks included simulating the circuits, designing and manufacturing PCB, programming and uploading firmware to microcontrollers, soldering electronics and testing the final product. Other task included a budget const analysis and a critical path analysis for a time and efficient execution of milestones and goals.",
       "highlights": []
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "Birmingham Conservatoire",
-      "area": "Music",
-      "studyType": "Bachelor (hons)",
-      "startDate": "1994-08-01",
-      "endDate": "1998-07-01",
+      "institution": "College of Electrical Engineering and Computer Science, UCF",
+      "area": "Electrical Engineer",
+      "studyType": "Bachelor",
+      "startDate": "2007-08-01",
+      "endDate": "2011-05-01",
       "gpa": "",
       "courses": []
     }
