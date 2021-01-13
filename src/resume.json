@@ -16,6 +16,11 @@
     },
     "profiles": [
       {
+        "network": "Twitter",
+        "username": "jonbloomer",
+        "url": ""
+      },
+      {
         "network": "Github",
         "username": "msenejoa",
         "url": "https://github.com/msenejoa"
