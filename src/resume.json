@@ -4,9 +4,9 @@
     "label": "Front End Developer",
     "picture": "./profilepicture.jpg",
     "email": "michaelsenejoa@gmail.com",
-    "phone": "4074630247",
+    "phone": "",
     "website": "http://github.com/msenejoa",
-    "summary": "I began my career as an Electrical Engineer where I learned many types signal processes, logic and algorithms. Early on my path, I found my footing in analog electronics building modular synthesizers. My interests evolved into using microcontrollers for personal and professional projects. As embedded systems and sensors became more widely available I began using python for data processing and back end processing. My obsession with data analysis lead me become proficient in data visualization eventually leading to web development with JavaScript (ES6), HTML, CSS, SQL, JSON, React and Redux.",
+    "summary": "Web Developer with 3+ years of experience in developing websites using primarily Node.js. Expertise include designing front end interfaces using functional React.js with a context/provider pattern for state management and creating reusable components. Backend experience includes building out Express.js servers for RESTful API with MongoDB and CouchDB. Graduated with a Bachelor of Science in Electrical Engineering.",
     "location": {
       "address": "Brooklyn",
       "postalCode": "11216",
@@ -16,25 +16,29 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "jonbloomer",
-        "url": ""
-      },
-      {
         "network": "Github",
         "username": "msenejoa",
-        "url": ""
+        "url": "https://github.com/msenejoa"
       }
     ]
   },
   "work": [
+    {
+      "company": "Databyss",
+      "position": "Javascript Developer",
+      "website": "https://Databyss.org",
+      "startDate": "2017-05-01",
+      "endDate": "",
+      "summary": "Javascript Developer for an open source project that can be found at Databyss.org. Developed a web based rich text editor which catalogs topics and citations for research purposes. Worked collaboratively using git and CI for development. Creat- ed an API for handling CRUD requests using Express.js, MongoDB and Jest for unit testing. Developed functional React UI components using Storybook for prototyp- ing components.",
+      "highlights": []
+    },
     {
       "company": "Tokéndex",
       "position": "Principle Developer",
       "website": "https://itunes.apple.com/us/app/tokendex/id1273909946?mt=8",
       "startDate": "2017-06-01",
       "endDate": "2017-09-01",
-      "summary": "As a person project I developed an iOS app utilizing React Native, Redux, redux-thunk and Expo to monitor blockchain cryptocurrencies, visualize trends in token prices, build a virtual portfolio, set the holdings of each currency to calculate the portfolio value. The project’s source code can be found on my github page. The application can be found on the App Store.",
+      "summary": "As a personal project I developed an iOS app utilizing React Native, Redux, redux-thunk and Expo to monitor blockchain cryptocurrencies, visualize trends in token prices, build a virtual portfolio, set the holdings of each currency to calculate the portfolio value. The project’s source code can be found on my github page. The application can be found on the App Store.",
       "highlights": []
     },
     {
@@ -43,7 +47,7 @@
       "website": "https://www.governor.ny.gov/news/governor-cuomo-announces-transformational-plan-reimagine-new-york-s-bridges-and-tunnels-21st",
       "startDate": "2017-04-01",
       "endDate": "",
-      "summary": "As a Project Engineer I oversaw and inspected the installation of a synchronized LED light show on the Marine Parkway Bridge commissioned by Governor Cuomo. This included coordinating with the Philips, designers, contractors, electricians, and the Tri-Borough Transit Authority (TBTA)  to ensure the phases of the project were completed in a timely and professional manner.",
+      "summary": "As a Project Engineer at a consultancy agency, I oversaw and inspected two projects commissioned by several state government agencies. Tasks included reviewing design drawings, verifying technical specifications, holding progress meetings to ensure timely completion of projects and also coordinating with manufacturers, designers, contractors, electricians and state agencies.",
       "highlights": []
     },
     {
@@ -52,25 +56,7 @@
       "website": "http://www.shapeways.com",
       "startDate": "2015-10-01",
       "endDate": "2017-03-01",
-      "summary": "An industry leader in a 3D printing marketplace. I worked closely with supply chain to plan 3D builds accordingly to reduce lead time and minimize late PO’s. I also analyzed customer meshes (obj, stl) to ensure printability. Used SQL, Python/Flask, JavaScript to visualize the order pipeline and lead times. I built web apps for the management team to visualize trends in various categories using custom written SQL queries.  Designed a web application using Flask/SQLite/JavaScript that tracked and displayed the quality of machined parts in order to ensure consistency among builds. Assisted in the automation of planning builds using Python, SQL and Selenium to work with our existing back end. ",
-      "highlights": []
-    },
-    {
-      "company": "Alchvmy",
-      "position": "Jewelry Design CAD",
-      "website": "https://www.shapeways.com/shops/senejoa",
-      "startDate": "2015-05-01",
-      "endDate": "",
-      "summary": "All design was done utilizing Rhino CAD, Blender, onShape, Sculptress, and Adobe Mudbox. I manipulate 3D scans of animals and animal bones found on the internet and design them into 3D printable jewelry items. The jewelry is available in bronze, brass, silver and gold. ",
-      "highlights": []
-    },
-    {
-      "company": "gCreate",
-      "position": "Manufacturing Engineer",
-      "website": "http://www.gcreate.com/",
-      "startDate": "2014-12-01",
-      "endDate": "2015-10-01",
-      "summary": "As part of a successful kickstarter campaign, we used large format 3D printers to manufacture parts to produce more 3D printers. This also included wiring all the electronics and sensors, tweaking/uploading open source firmware to microcontrollers, and testing each printer before shipping it out. ",
+      "summary": "Worked closely with supply chain to create modular SQL queries in order to highlight and automate high priority PO’s. I then wrote a python script that would parse the results into an email using SMTP and automatically email the production team.\nCollaborated with supply chain and the factory management team to write SQL queries that would highlight various metrics in each department (throughput, lead time, reprit rate, complaints). Ran a local server (Python/Flask) to display the results using HTML/- Bootstrap/JS, C3.js and JSON.\nWorked with supply chain to write custom SQL queries in order to visualize the produc- tion pipeline vs. lead time in order to track and reduce late POs. The resulting graphs would update periodically. The program was hosted on a local server using Python/Flask, HTML/Bootstrap/JS, C3.js and JSON.",
       "highlights": []
     },
     {
@@ -136,13 +122,12 @@
     {
       "language": "English",
       "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
+    },
     {
-      "name": "Guitar",
-      "keywords": []
+      "language": "Spanish",
+      "fluency": "Native speaker"
     }
   ],
+  "interests": [],
   "references": []
 }
